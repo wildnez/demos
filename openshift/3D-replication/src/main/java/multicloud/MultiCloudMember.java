@@ -5,7 +5,7 @@ import com.hazelcast.core.Hazelcast;
 import com.hazelcast.spi.merge.PassThroughMergePolicy;
 
 
-public class WanReplicatedMember {
+public class MultiCloudMember {
 
     private static void configureClusterWAN(Config config) {
         WanReplicationConfig wrConfig = new WanReplicationConfig();
