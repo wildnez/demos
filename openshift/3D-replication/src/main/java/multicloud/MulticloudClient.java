@@ -32,7 +32,7 @@ public class MulticloudClient {
         ClientConfig laptopConfig = new ClientConfig();
         laptopConfig.setClusterName(ON_PREM_CLUSTER_ID);
         ClientNetworkConfig networkConfig = laptopConfig.getNetworkConfig();
-        networkConfig.addAddress("127.0.0.1");
+        networkConfig.addAddress(ADD_ON_PREM_INSTANCE);
 
         ClientConfig ec2Config = new ClientConfig();
         ec2Config.setClusterName(EC2_CLUSTER_ID);
