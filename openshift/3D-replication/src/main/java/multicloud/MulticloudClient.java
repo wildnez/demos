@@ -15,7 +15,7 @@ public class MulticloudClient {
     private static final String ADD_EC2_INSTANCE_1 = "IP or DNS Of EC2 Instance 1";
     private static final String ADD_EC2_INSTANCE_2 = "IP or DNS of EC2 Instance 2";
     private static final String ADD_ON_PREM_INSTANCE = "127.0.0.1:5701";
-    private static final String ADD_OPENSHIFT_LB_SVC = "IP or DNS of OpenShift LoadBalancer Service";
+    private static final String ADD_OPENSHIFT_LB_SVC = "IP of OpenShift LoadBalancer Service";
 
     private static final String EC2_CLUSTER_ID = "ec2";
     private static final String ON_PREM_CLUSTER_ID = "laptop";
